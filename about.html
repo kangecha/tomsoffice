@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="themes/css.min.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+        <script src="js/jquery-1.11.1.min.js"></script>        
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <style type="text/css">
+            .wrap {
+                white-space: normal !important;
+            }
+        </style>
+        <title>TOMS OFFICE GUIDE</title>
+    </head>
+    <body>
+        <div id="mainPage" data-role="page" data-theme="c" >
+            <div data-role="header" data-position="fixed">
+                <a href="#leftpanel2" data-transition="slide" data-icon="alert" class="ui-btn-right" data-role="button" data-inline="true" data-mini="true" data-iconpos="notext" data-iconshadow="false" data-shadow="false">About</a>
+                <a href="#leftpanel1" data-transition="slide" data-icon="bars" class="ui-btn-left" data-role="button" data-inline="true" data-mini="true" data-iconpos="notext" data-iconshadow="false" data-shadow="false">Menu</a>
+                <h1>Your Office Guide!</h1>
+            </div>
+            <div data-role="content">
+                <!-- Ini Adalah Konten -->
+                <ul data-role="listview" data-inset="true">
+                    <li class="wrap"><center>
+                        <h2>ToMs.Office</h2>
+                        <h3>(Tutorial Ms. Office 2013)</h3>
+                        <img src="img/logo.png" width="150px" align="center"><br>
+                        <img src="img/word.png" width="100px">
+                        <img src="img/powerpoint.png" width="100px">
+                        <img src="img/excel.png" width="100px">
+                        <p class="wrap">
+                            Aplikasi Ini Di Buat Untuk Memenuhi Persyaratan Tugas Kuliah, Mata Kuliah
+                            Insteraksi Manusia Dengan Komputer Oleh Mrs. Indah, Tugas Ini di Buat Oleh:
+                            <br>- Programmer : Raessa Fathul Alim (4713010013)
+                            <br>- UI Designer: Putri Kusuma Warndani (4713010012)
+                            <br>- UX Designer: Setia Larasati (4713010033)
+                        </p>
+                        <h3>Copyright &copy; 2014</h3>
+                        <img src="img/PNJ.png" width="150px">
+                        <img src="img/bglogo.png" width="100px">
+                        <h2>POLITEKNIK NEGERI JAKARTA<br>KAMPUS KERJASAMA<br>BBPLKLN CEVEST BEKASI</h2>
+                    </center></li>
+                </ul>
+
+            </div>
+
+            <div data-role="footer" data-position="fixed">
+                <h1>Copyright &copy; 2014. TomsOffice</h1>
+            </div>
+
+            <!-- Slider Mennu -->
+            <div data-role="panel" id="leftpanel1" data-position="left" data-display="push" data-dismissible="true" data-theme="c">
+                <h3>TUTORIAL</h3>
+                <ul id="menu-utama" data-role="listview">
+                    <li><a href="index.html" data-transition="slide"><h3>Home</h3></a></li>
+                    <li><a href="video.html?kat=word" data-transition="slide"><h3>Ms. Office Word 2013</h3></a></li>
+                    <li><a href="video.html?kat=powerpoint" data-transition="slide"><h3>Ms. Office Power Point 2013</h3></a></li>
+                    <li><a href="video.html?kat=excel" data-transition="slide"><h3>Ms. Office Excel 2013</h3></a></li>
+
+                </ul>
+            </div><!-- /leftpanel3 -->
+
+            <div data-role="panel" id="leftpanel2" data-position="right" data-display="push" data-dismissible="true" data-theme="c">
+                <h3>ABOUT US</h3>
+                <ul id="menu-user" data-role="listview">
+                    <li><a href="about.html" data-transition="slide"><h3>ABOUT TOMS</h3></a></li>
+                    <li><a href="faq.html" data-transition="slide"><h3>F.A.Q?</h3></a></li>
+                </ul>
+            </div><!-- /leftpanel3 -->
+        </div>
+    </body>
+</html>
